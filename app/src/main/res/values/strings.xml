@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Мое здоровье</string>
+    <string name="btnTextSave">Сохранить</string>
+    <string name="btnTextPressure">Давление</string>
+    <string name="btnTextHealth">Жизненные показатели</string>
+    <string name="hintName">Как вас зовут?</string>
+    <string name="hintHowOldRU">Сколько вам полных лет?</string>
+    <string name="hintUpperPressure">Введите верхнее давление</string>
+    <string name="hintLowerPressure">Введите нижнее давление</string>
+    <string name="hintPulse">Введите пульс</string>
+    <string name="textTachycardia">Тахикардия</string>
+    <string name="hintDate">Введите дату замеров</string>
+    <string name="hintSteps">Количество шагов в день</string>
+    <string name="hintWeight">Ваш вес в кг</string>
+</resources>
