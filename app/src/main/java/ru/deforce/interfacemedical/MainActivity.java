@@ -24,19 +24,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        initViews();
+        init();
     }
 
-    public void initViews() {
+    public void init() {
         name = findViewById(R.id.inputName);
         age = findViewById(R.id.inputAge);
 
-        list = new ArrayList();
+        list = new ArrayList<>();
     }
 
     public void onClickSaveBtn(View view) {
 
-        Log.i(TAG,"Нажали кнопку сохранить");
+        Log.i(TAG,"Нажали кнопку Сохранить");
 
         list.add(name.getText().toString());
         list.add(age.getText().toString());
